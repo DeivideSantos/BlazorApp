@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700;900&display=swap);
+
+
+.textConsu {
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    color: #0F172A;
+}
+
+.dzmConsul {
+    font-family: "Poppins",sans-serif;
+    font-size: 30px; 
+    color: #475569"
+}
+
+.tex1 {
+    border-bottom: 10px solid #5222D0;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-family: "roboto", sans-serif;
+    color: #0F172A;
+    font-weight: bold;
+}
+
+.sectionInfo {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+} 
+
+.Text2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+    b{
+        background: 
+        -webkit-linear-gradient(180deg, #B79FF7, #475569);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-style: normal;
+    }
+}
+
+.buttonAction {
+    height: 50px; 
+    font-size: 16px; 
+    width: 350px; 
+    border-radius: 30px;
+    color: white;
+    background-color: #5222D0;
+
+}
+
+
+.buttonAction2 {
+    height: 50px; 
+    font-size: 16px; 
+    width: 150px; 
+    border-radius: 30px;
+    padding-top: 10px;
+    
+}
+
+.iconsMedia {
+    justify-content: end;
+    display: flex;
+}

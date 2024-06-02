@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>
+
+<MudLayout>
+    <MudContainer style="align-items: center; display: flex; justify-content: center;">
+                        
+        <MudImage Src="images/logo.png" style="height: 100px; width: 100px;"
+                                                />
+    </MudContainer>
+    <MudMainContent>
+        <MudContainer>
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>

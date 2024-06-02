@@ -1,0 +1,123 @@
+﻿@page "/"
+
+<MudLayout>
+ <MudMainContent>
+    <MudContainer>
+        <MudGrid>
+            <MudItem xs="6" class="sectionInfo">
+                <MudText  Typo="Typo.subtitle1" class="dzmConsul">
+                    DZM consultoria 
+                </MudText>  
+                <MudText Typo="Typo.h1" class="textConsu" Style="font-size: 70px;">
+                    A consultoria que voce procura <br>
+                    Para seus projetos elétricos
+                </MudText>
+            </MudItem>
+
+            <MudItem xs="6">
+                <MudImage Src="images/media.jpg" style="width: 500px; height: 500px;"/>
+            </MudItem>
+
+            <MudItem xs="3">
+                <MudText Typo="Typo.h3" class="tex1">
+                    80% das <br>
+                    empresas
+                </MudText>
+
+            </MudItem>
+
+            
+            <MudItem xs="8">
+                <MudText Typo="Typo.subtitle2" class="Text2">
+                    Não sabem como lidar com a <b>otimização</b> dos seus projetos eletricos para o seus negócios.
+                    
+                </MudText>
+
+            </MudItem>
+
+            <MudItem xs="12" style="justify-content: center; display: flex; padding: 50px 60px;">
+                <MudButton Variant="Variant.Filled" class="buttonAction" DisableElevation="true" Style="@($"background: #5222D0")">
+                        Fale com nossos especialistas
+                </MudButton>
+            </MudItem>  
+
+        
+                <MudItem xs="6" style="background-color: #5222D0;">
+                        <MudText Typo="Typo.h4" style="color: white; font-weight: bold;">
+                            fique por dentro das novidades
+
+                        </MudText>
+
+                        <MudText Typo="Typo.subtitle2" style="color: white; padding-top: 20px; font-weight: lighter;">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, suscipit labore eum enim qui officia repudiandae vel provident error dicta ea nisi, eaque ex ullam non. Perferendis quos minus debitis!
+
+                        </MudText>
+                </MudItem>
+
+                <MudItem xs="6" style="background-color: #5222D0; padding: 10px;">
+                    <MudForm>
+                       
+                        <MudTextField T="string" Label="name" Required="true" RequiredError="nome invalido" Class="my-input"/>
+                        <MudTextField T="string" Label="e-mail" Required="true" RequiredError="email invalido"/>
+                    </MudForm>
+
+                    <MudPaper class="pa-4 mt-4" Style="background-color: #5222D0;">
+                            <MudButton Style="@($"background: white")" class="buttonAction2">se inscreva</MudButton>
+                    </MudPaper>
+
+                </MudItem>
+
+            <MudItem xs="6" Class="pa-10 mt-4">
+                    
+                    <MudImage Src="images/redeEletrica.jpg" Width="500" Height="500" />
+                    <MudText Typo="Typo.h5" Class="pa-2 mt-4" Style="color: #0F172A; font-family: roboto; font-weight: bold;" >
+                        equipe qualificada
+                    </MudText>
+
+                    <MudText Typo="Typo.subtitle2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptates ipsam ipsum minus possimus sapiente exercitationem, deserunt ducimus odit asperiores aspernatur commodi consectetur ullam autem, et officia vel sint cumque!</MudText>
+            </MudItem>   
+
+            <MudItem xs="6" Class="pa-10 mt-4">
+                <MudImage Src="images/fonteRenovavel.png" Width="500" Height="500" />
+
+                <MudText Typo="Typo.h5" Class="pa-2 mt-4" Style="color: #0F172A; font-family: roboto; font-weight: bold;" >
+                        projeto de energia renovável
+                </MudText>
+                <MudText Typo="Typo.subtitle2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ab beatae quos quibusdam, esse vero impedit accusantium nostrum odit modi ducimus possimus incidunt id ut praesentium, distinctio ex accusamus quod.
+                </MudText>
+                
+            </MudItem>
+
+            <MudItem xs="12" style="justify-content: center; display: flex; flex-direction: column;" >
+                <MudText Typo="Typo.h1" Style="font-size: 30px; font-family: roboto; font-weight: bold; text-align: center; color: #0F172A; padding-bottom: 30px;" >
+                    Quer elevar seus projetos eletricos para outro nível <br> com os melhores profissionais do mercado?
+
+                </MudText>
+
+            </MudItem>
+
+            <MudItem xs="12" style="justify-content: center; display: flex;">
+                <MudButton Variant="Variant.Filled" class="buttonAction" DisableElevation="true" Style="@($"background: #5222D0")">
+                        Fale com nossos especialistas
+                </MudButton>
+            </MudItem>  
+
+            <MudItem xs="6">
+                <MudImage  Src="images/logo.png" style="width: 50px; height: 50px; "/>
+            </MudItem>
+
+            <MudItem xs="6" Class="iconsMedia">
+                <MudIconButton Icon="@Icons.Custom.Brands.Instagram" class="buttonInsta" aria-label="Instagram" ></MudIconButton>
+                <MudIconButton Icon="@Icons.Custom.Brands.Facebook" class="buttonInsta" aria-label="facebook" ></MudIconButton>
+                <MudIconButton Icon="@Icons.Custom.Brands.X" class="buttonInsta" aria-label="Twitter" ></MudIconButton>
+            </MudItem>
+            
+
+
+        </MudGrid>
+
+    </MudContainer>
+ </MudMainContent>
+
+</MudLayout>
